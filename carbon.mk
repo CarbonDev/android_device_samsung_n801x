@@ -15,14 +15,6 @@
 # limitations under the License.
 #
 
-
-# Release name
-PRODUCT_RELEASE_NAME := GT-N8013
-
-# Bootanimation
-TARGET_SCREEN_HEIGHT := 800
-TARGET_SCREEN_WIDTH := 1280
-
 # Inherit from the common Open Source product configuration
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
 
