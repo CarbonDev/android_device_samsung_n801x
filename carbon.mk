@@ -21,7 +21,7 @@ PRODUCT_RELEASE_NAME := GT-N8013
 
 # Bootanimation
 TARGET_SCREEN_HEIGHT := 800
-TARGET_SCREEN_WIDTH := 480
+TARGET_SCREEN_WIDTH := 1280
 
 # Inherit from the common Open Source product configuration
 $(call inherit-product, vendor/carbon/config/common_full_tablet_wifionly.mk)
