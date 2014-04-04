@@ -15,15 +15,27 @@
 # limitations under the License.
 #
 
+
+# Release name
+PRODUCT_RELEASE_NAME := GT-N8013
+
+# Bootanimation
+TARGET_SCREEN_HEIGHT := 800
+TARGET_SCREEN_WIDTH := 480
+
 # Inherit from the common Open Source product configuration
-$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
+$(call inherit-product, vendor/carbon/config/common_full_tablet_wifionly.mk)
+
 
 # Inherit device configuration
-$(call inherit-product, device/samsung/n801x/device.mk)
+$(call inherit-product, device/samsung/n801x/full_n801x.mk)
 
 # Discard inherited values and use our own instead.
-PRODUCT_NAME := omni_n801x
+PRODUCT_NAME := carbon_n801x
 PRODUCT_DEVICE := n801x
-PRODUCT_BRAND := samsung
+PRODUCT_BRAND := Samsung
 PRODUCT_MANUFACTURER := Samsung
 PRODUCT_MODEL := GT-N8013
+
+# Set build fingerprint / ID / Prduct Name ect.
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=GT-N8013
