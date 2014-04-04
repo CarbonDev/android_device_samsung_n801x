@@ -28,7 +28,7 @@ $(call inherit-product, vendor/carbon/config/common_full_tablet_wifionly.mk)
 
 
 # Inherit device configuration
-$(call inherit-product, device/samsung/n801x/full_n801x.mk)
+$(call inherit-product, device/samsung/n801x/device.mk)
 
 # Discard inherited values and use our own instead.
 PRODUCT_NAME := carbon_n801x
