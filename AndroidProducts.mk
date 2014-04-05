@@ -16,4 +16,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_n801x.mk
+    $(LOCAL_DIR)/carbon_n801x.mk
