@@ -18,11 +18,5 @@
     {
         "repository": "CarbonDev/proprietary_vendor_samsung",
         "target_path": "vendor/samsung"
-    },
-    {
-        "remote": "gh",
-        "repository": "OmniRom/android_packages_apps_SamsungServiceMode",
-        "target_path": "packages/apps/SamsungServiceMode",
-        "revision": "android-4.4"
     }
 ]
