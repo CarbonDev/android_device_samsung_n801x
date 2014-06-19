@@ -22,6 +22,9 @@
 TARGET_KERNEL_SOURCE := kernel/samsung/smdk4412
 TARGET_KERNEL_CONFIG := custom_n801x_defconfig
 
+# Rom/Kernel Toolchain Sabermod 4.8/4.7
+TARGET_GCC_VERSION_EXP := 4.8
+
 # Assert
 TARGET_OTA_ASSERT_DEVICE := c0,p4notewifi,p4notewifiww,n8013,GT-N8013,n8010,GT-N8010
 
