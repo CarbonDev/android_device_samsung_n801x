@@ -18,7 +18,6 @@
 # Inherit from the common Open Source product configuration
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
 
-
 # Inherit device configuration
 $(call inherit-product, device/samsung/n801x/device.mk)
 

@@ -1,25 +1,23 @@
 [
     {
         "repository": "CarbonDev/android_device_samsung_n80xx-common",
-        "target_path": "device/samsung/n80xx-common",
-        "revision": "kk"
+        "target_path": "device/samsung/n80xx-common"
     },
     {
         "repository": "CarbonDev/android_device_samsung_smdk4412-common",
-        "target_path": "device/samsung/smdk4412-common",
-        "revision": "kk"
+        "target_path": "device/samsung/smdk4412-common"
     },
     {
         "remote": "gh",
-        "repository": "OmniRom/android_kernel_samsung_smdk4412",
+        "repository": "omnirom/android_kernel_samsung_smdk4412",
         "target_path": "kernel/samsung/smdk4412",
         "revision": "android-4.4"
     },
     {
         "remote": "gh",
-        "repository": "TheMuppets/proprietary_vendor_samsung",
+        "repository": "TheThunderbirds/proprietary_vendor_samsung",
         "target_path": "vendor/samsung",
-        "revision": "cm-11.0"
+        "revision": "kk"
     },
     {
         "remote": "sf",
